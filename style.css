@@ -1,0 +1,546 @@
+/*MEDIA DESKTOP*/
+@media screen and (min-width: 780px) {
+    .full-width-img {
+        margin: auto;
+        width: 90%;
+    }
+
+    /*TODO*/
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    /*HEADER*/
+    .header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+
+    /* LOGO*/
+    .logo {
+        background-color: #54BAB9;
+        color: #F7ECDE;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-shadow: 4px 4px #9ED2C6;
+        font-size: 35px;
+        height: 95px;
+        line-height: 95px;
+    }
+
+    /*NAVEGADOR*/
+    .navegador {
+        background-color: #9ED2C6;
+        height: 45px;
+        line-height: 25px;
+        display: flex;
+        justify-content: space-between;
+        border-end-start-radius: 20px;
+        border-end-end-radius: 20px;
+        padding: 0 170px 0 170px;
+        max-width: auto;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*BOTON DE MENU*/
+    .botonMenu {
+        color: black;
+        background-color: #9ED2C6;
+        border: none;
+        font-size: 20px;
+        padding: 0 20px;
+        line-height: 20px;
+        display: none;
+
+    }
+
+    /*DETALLE NAVEGADOR*/
+    .sep-a {
+        font-size: 25px;
+        color: black;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: max-content;
+        margin: 0 10px;
+
+    }
+
+    .sep-li {
+        list-style: none;
+        border-radius: 20px;
+        padding: 10px 12px;
+
+    }
+
+    /*EFECTO TRANSICION DE NAV.*/
+    .sep-li:hover {
+        background-color: #54BAB9;
+        transition: 0.8s;
+        padding: 10px;
+    }
+
+
+    /*BODY*/
+    body {
+        background-color: #F7ECDE;
+        padding: 150px 0px 0px;
+    }
+
+
+
+    /*PRODUCTOS*/
+    .pdctsTodos {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+
+
+
+
+
+    }
+
+
+    .productos {
+        padding: 10px;
+
+
+    }
+
+    /*IMAGEN DE PRODUCTOS*/
+
+    .producto__imagen {
+        padding: 12px;
+        background-color: #54BAB9;
+        height: 250px;
+
+
+
+    }
+
+    /*FOOTER GENERAL*/
+    .totalFooter {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+
+    }
+
+    /*FOOTER UNO*/
+    .footer1 {
+        font-size: 16px;
+        background-color: #9ED2C6;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding: 20px 15%;
+        line-height: 15px;
+
+    }
+
+    /*FOOTER DOS*/
+    .footer2 {
+        font-size: 16px;
+        background-color: #54BAB9;
+        color: #F7ECDE;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 15%;
+
+
+    }
+
+    /*FOOTER TRES*/
+    .footer3 {
+        font-size: 11px;
+        background-color: #54BAB9;
+        color: #F7ECDE;
+
+    }
+
+
+
+    /*TEXTO DE PAGINA NOSOTROS*/
+    .nosotros__texto {
+        font-size: large;
+        margin: 2%;
+        text-align: center;
+        ;
+    }
+}
+
+
+
+
+/*MEDIA TABLET-------------------------------------------*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /*TODO*/
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    /*HEADER*/
+    .header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+
+    /* LOGO*/
+    .logo {
+        background-color: #54BAB9;
+        color: #F7ECDE;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-shadow: 3px 3px #9ED2C6;
+        font-size: 20px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    /*NAVEGADOR*/
+    .navegador {
+        background-color: #9ED2C6;
+        height: 32px;
+        line-height: 12px;
+        display: flex;
+        justify-content: center;
+        border-end-start-radius: 20px;
+        border-end-end-radius: 20px;
+        max-width: auto;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    /*BOTON DE MENU*/
+    .botonMenu {
+        color: black;
+        background-color: #9ED2C6;
+        border: none;
+        font-size: 20px;
+        padding: 0 20px;
+        line-height: 20px;
+        display: none;
+
+    }
+
+    /*DETALLE NAVEGADOR*/
+    .sep-a {
+        font-size: 18px;
+        color: black;
+        width: max-content;
+        margin: 0 10px;
+
+    }
+
+    .sep-li {
+        list-style: none;
+        border-radius: 20px;
+        padding: 10px 12px;
+
+    }
+
+    /*EFECTO TRANSICION DE NAV.*/
+    .sep-li:hover {
+        background-color: #54BAB9;
+        transition: 0.8s;
+        padding: 10px;
+    }
+
+
+    /*BODY*/
+    body {
+        background-color: #F7ECDE;
+        padding: 100px 0px 0px;
+    }
+
+
+
+    /*PRODUCTOS*/
+    .pdctsTodos {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+
+    .productos {
+        padding: 10px;
+
+
+    }
+
+    /*IMAGEN DE PRODUCTOS*/
+
+    .producto__imagen {
+        padding: 12px;
+        background-color: #54BAB9;
+        height: 220px;
+
+
+    }
+
+    /*FOOTER GENERAL*/
+    .totalFooter {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+
+    }
+
+    /*FOOTER UNO*/
+    .footer1 {
+        font-size: 13px;
+        background-color: #9ED2C6;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding: 6px 100px;
+        line-height: 15px;
+
+    }
+
+    .redes {
+        width: 40px;
+        
+            }
+
+    /*FOOTER DOS*/
+    .footer2 {
+        font-size: 13px;
+        background-color: #54BAB9;
+        color: #F7ECDE;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 100px;
+
+
+    }
+
+    /*FOOTER TRES*/
+    .footer3 {
+        font-size: 11px;
+        background-color: #54BAB9;
+        color: #F7ECDE;
+    }
+
+    .mapa {
+        width: 190px
+    }
+
+
+    /*TEXTO DE PAGINA NOSOTROS*/
+    .nosotros__texto {
+        font-size: large;
+        margin: 2%;
+        text-align: center;
+        ;
+    }
+}
+
+
+
+
+/*MEDIA MOBILE-------------------------------------------*/
+@media screen and (max-width: 767px) {
+
+    /*TODO*/
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    /*HEADER*/
+    .header {
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+
+    /* LOGO*/
+    .logo {
+        background-color: #54BAB9;
+        color: #F7ECDE;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-shadow: 2px 2px #9ED2C6;
+        font-size: 13px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    /*NAVEGADOR*/
+    .navegador {
+        background-color: #9ED2C6;
+        height: 100px;
+        display: grid;
+        border-end-start-radius: 20px;
+        border-end-end-radius: 20px;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    /*BOTON DE MENU*/
+    .botonMenu {
+        color: black;
+        background-color: #9ED2C6;
+        border: none;
+        font-size: 20px;
+        padding: 0 20px;
+        line-height: 20px;
+        display: none;
+
+    }
+
+    /*DETALLE NAVEGADOR*/
+    .sep-a {
+        font-size: 14px;
+        color: black;
+        width: max-content;
+
+
+    }
+
+    .sep-li {
+        list-style: none;
+        border-radius: 20px;
+        padding: 0;
+
+    }
+
+    /*EFECTO TRANSICION DE NAV.*/
+    .sep-li:hover {
+        background-color: #54BAB9;
+   }
+
+
+    /*BODY*/
+    body {
+        background-color: #9ED2C6;
+
+    }
+
+
+
+    /*PRODUCTOS*/
+    .pdctsTodos {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px 0 0 5%;
+        
+
+
+    }
+
+
+    .productos {
+        padding: 1px;
+
+
+    }
+
+    /*IMAGEN DE PRODUCTOS*/
+
+    .producto__imagen {
+        padding: 5px;
+        background-color: #54BAB9;
+        width: 200px;
+
+
+
+    }
+
+    /*FOOTER GENERAL*/
+    .totalFooter {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+
+    }
+
+    /*FOOTER UNO*/
+    .footer1 {
+        font-size: 10px;
+        background-color: #9ED2C6;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        padding: 5px 0 3px;
+        line-height: 12px;
+        text-align: center;
+        margin: 0 15px 0 15px;
+
+
+
+    }
+
+    .redes {
+width: 30px;
+
+    }
+
+    /*FOOTER DOS*/
+    .footer2 {
+        font-size: 12px;
+        background-color: #54BAB9;
+        color: #F7ECDE;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 15%;
+        flex-wrap: wrap;
+  
+
+
+    }
+/*MAPA DE UBICACION*/
+    .mapa {
+        width: 100%;
+    }
+
+    /*FOOTER TRES*/
+    .footer3 {
+        
+        font-size: 8px;
+        background-color: #54BAB9;
+        color: #F7ECDE;
+
+    }
+
+    .imgData {
+        width: 50px;
+
+    }
+
+
+
+    /*TEXTO DE PAGINA NOSOTROS*/
+    .nosotros__texto {
+        font-size: 11px;
+        margin: 6%;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+        ;
+    }
+}
